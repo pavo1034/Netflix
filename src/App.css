@@ -5,3 +5,10 @@ input:-webkit-autofill:active {
    -webkit-transition-delay:9999s;
    transition-delay:9999s;
 }
+
+
+.container{
+   display: flex;
+   justify-content: space-between;
+   min-width: 100%;
+}
