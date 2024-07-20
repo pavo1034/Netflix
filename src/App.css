@@ -2,13 +2,28 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-   -webkit-transition-delay:9999s;
-   transition-delay:9999s;
+  -webkit-transition-delay: 9999s;
+  transition-delay: 9999s;
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  min-width: 100%;
+}
 
-.container{
-   display: flex;
-   justify-content: space-between;
-   min-width: 100%;
+.outer::-webkit-scrollbar {
+  width: 0px;
+}
+
+.outer {
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+.inner{
+   scroll-snap-align: center;
+}
+
+.option{
+  background-color: rgba(0,0,0, 0.7);
 }

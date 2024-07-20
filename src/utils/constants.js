@@ -10,3 +10,5 @@ export const AVTAR_URL ="https://wallpapers.com/images/high/netflix-profile-pict
         Authorization: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNmQ1ZDc0NTBkODA1N2JiYzM4YWJlYTQwYjBkMTM2NiIsIm5iZiI6MTcyMTI5OTA5MS41MTA0MTMsInN1YiI6IjY2OThlZWU4NzA2Y2Q3MmM5NTJjNzk1ZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.lPrcfP_db04uf7Z_iJwgabpZ5WxkUQD825KwXK1pfSc"
     },
 }
+
+export const IMG_CDN ="https://image.tmdb.org/t/p/w500/"
