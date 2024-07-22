@@ -14,7 +14,7 @@ export const lang = {
 };
 
 export const SUPPORTED_LANGUAGE = [
-  { identifier: "en", name: "En" },
+  { identifier: "En", name: "En" },
   { identifier: "Hindi", name: "Hindi" },
   { identifier: "Spanish", name: "Spanish" },
 ];

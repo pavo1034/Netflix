@@ -12,6 +12,8 @@ import { toggleGptSearch } from "../utils/gptSlice";
 import GptSearchPage from "./GptSearchPage";
 import { SUPPORTED_LANGUAGE } from "../utils/languageConstant";
 import { changeLang} from "../utils/configSlice";
+
+
 const Browse = () => {
   const name = useSelector((store) => store.user);
   const gpt = useSelector((store) => store.gpt);
@@ -44,16 +46,16 @@ const Browse = () => {
           <Header />
         </span>
         <span className="flex items-center mt-3 mr-2 gap-4 bg-black h-14  pb-8">
-         {gpt.showGptSearch && <select className="outline-none bg-slate-500/[0.4] text-white  hover:text-neutral-300 pl-2" onChange={handleLanguageChange}>
+         {gpt.showGptSearch && <select className="outline-none bg-slate-500/[0.4] hover:text-white text-neutral-300 pl-2" onChange={handleLanguageChange}>
             {
               SUPPORTED_LANGUAGE.map(lang=><option key={lang.identifier} value={lang.identifier} className="option">{lang.name}</option>)
             }
           </select>}
-          <button className="text-white hover:text-neutral-300" onClick={handleGptSearch}>{gpt.showGptSearch ? "Home":"GptSearch"}</button>
+          <button className="hover:text-white text-neutral-300" onClick={handleGptSearch}>{gpt.showGptSearch ? "Home":"GptSearch"}</button>
           <span className="flex gap-2 items-center">
             <img src={name?.photoURL} alt="" className="w-8 h-8 rounded-sm" />
             <button
-              className="text-bold  text-white   rounded h-6 px-1.5  hover:text-neutral-300 "
+              className="text-bold  hover:text-white   rounded h-6 px-1.5 text-neutral-300 "
               onClick={handleSignOut}
             >
               Sign Out
@@ -66,6 +68,7 @@ const Browse = () => {
      <MainContainer />
      <SecondryContainer />
      </>}
+
     </div>
   );
 };

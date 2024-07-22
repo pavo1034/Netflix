@@ -11,4 +11,18 @@ export const AVTAR_URL ="https://wallpapers.com/images/high/netflix-profile-pict
     },
 }
 
-export const IMG_CDN ="https://image.tmdb.org/t/p/w500/"
+export const IMG_CDN ="https://image.tmdb.org/t/p/w500/";
+
+// export const OPENAI_KEY1 ="sk-proj-mbxJlTklWswztnF7zpUdT3BlbkFJMfxU4ELpuiAqrOlB40Wb";
+export const OPENAI_KEY2 ="AIzaSyCPcaw77rkkHd-LdZuPNLhGtePAgRqt0Ss";
+
+
+/*
+ * Install the Generative AI SDK
+ *
+ * $ npm install @google/generative-ai
+ *
+ * See the getting started guide for more information
+ * https://ai.google.dev/gemini-api/docs/get-started/node
+ */
+
