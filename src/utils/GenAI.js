@@ -1,7 +1,7 @@
-import { OPENAI_KEY2 } from "./constants";
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
-const apiKey = OPENAI_KEY2;
+
+const apiKey = process.env.REACT_APP_GENAI_KEY;
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const model = genAI.getGenerativeModel({
