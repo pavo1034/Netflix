@@ -3,7 +3,7 @@ import MovieCard from "./MovieCard";
 
 const MovieList = ({ title, movies }) => {
   return (
-    <div className="-mt-40 relative z-10 bg-gradient-to-r from-black gpt-suggestion-page ">
+    <div className="md:-mt-40 relative z-10 bg-gradient-to-r from-black">
       <div className="font-bold text-white mb-1">{title}</div>
       { movies && <div className="flex overflow-x-scroll outer">
         {

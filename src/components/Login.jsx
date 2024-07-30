@@ -89,7 +89,7 @@ const Login = () => {
   return (
     <div>
       <div
-        className={`absolute  z-10 sm:w-[40%] bg-black/70 left-[30%] sm:top-[10%] px-10 space-y-10 py-10 `}
+        className={`absolute  z-10 w-full md:w-[40%] bg-black/50 md:bg-black/70 left-0 md:left-[30%] top-[15%] md:top-[10%] px-10 md:px-10 space-y-5 md:space-y-10 py-10 md:py-10 `}
       >
         <span className="text-3xl text-white font-bold my-20">
           {signIn ? "Sign In" : "Sign Up"}
@@ -149,7 +149,7 @@ const Login = () => {
         <img
           src={bgpic}
           alt="backimg"
-          className="min-w-[100%] min-h-[120%]"
+          className="min-w-[100%] min-h-[120%] object-cover"
         />
       </div>
     </div>

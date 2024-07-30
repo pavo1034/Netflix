@@ -27,9 +27,7 @@ input:-webkit-autofill:active {
 .option{
   background-color: rgba(0,0,0, 0.7);
 }
-.gpt-suggestion-page{
-  box-shadow: -2px -2px 10px 5px black;
-}
+
 
 .bg{
   background-color: rgb(168, 24, 24);
@@ -43,9 +41,11 @@ input:-webkit-autofill:active {
 }
 
 .spin{
-  border: 10px dotted red;
+  border: 2px solid red;
+  border-bottom: none;
+  border-left: none;
 }
 
 .videotrailer{
-  border:2px solid red;
+  border:1px solid red;
 }

@@ -33,7 +33,7 @@ const Header = () => {
   }, []);
   return (
     <div className=" absolute ">
-      <img src={logo} alt="logo" className="w-48 scale-110" />
+      <img src={logo} alt="logo" className="md:w-48 w-32 md:scale-110" />
     </div>
   );
 };
