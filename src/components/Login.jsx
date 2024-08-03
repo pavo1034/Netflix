@@ -117,6 +117,7 @@ const Login = () => {
               ref={email}
               placeholder="Email"
               className="w-[100%] rounded-sm px-5  border-2 border-red-600 bg-slate-700/40 text-white"
+              required
             />
           </div>
           <div className=" flex h-12">

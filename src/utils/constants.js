@@ -12,7 +12,7 @@ export const API_OPTIONS = {
   headers: {
     accept: "application/json",
     Authorization:
-      "Bearer "+process.env.REACT_APP_TMDB_KEY,
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNmQ1ZDc0NTBkODA1N2JiYzM4YWJlYTQwYjBkMTM2NiIsIm5iZiI6MTcyMTI5OTA5MS41MTA0MTMsInN1YiI6IjY2OThlZWU4NzA2Y2Q3MmM5NTJjNzk1ZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.lPrcfP_db04uf7Z_iJwgabpZ5WxkUQD825KwXK1pfSc"
   },
 };
 
